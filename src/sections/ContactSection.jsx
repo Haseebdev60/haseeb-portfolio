@@ -235,7 +235,7 @@ const ContactSection = () => {
               </ContactIcon>
               <ContactDetails>
                 <h4>Address</h4>
-                <p>123 Web Dev Street, San Francisco, CA</p>
+                <p>21 KM, Ferozpur Road, Dullu Khurd, Lahore, Pakistan</p>
               </ContactDetails>
             </ContactItem>
             
@@ -245,7 +245,7 @@ const ContactSection = () => {
               </ContactIcon>
               <ContactDetails>
                 <h4>Email</h4>
-                <p>example@yourwebsite.com</p>
+                <p>muhammadhaseeb60@gmail.com</p>
               </ContactDetails>
             </ContactItem>
             
@@ -255,7 +255,7 @@ const ContactSection = () => {
               </ContactIcon>
               <ContactDetails>
                 <h4>Phone</h4>
-                <p>+1 (123) 456-7890</p>
+                <p>+923288091852</p>
               </ContactDetails>
             </ContactItem>
           </ContactInfo>

@@ -365,7 +365,7 @@ const Contact = () => {
                 </ContactIcon>
                 <ContactDetails>
                   <h3>Location</h3>
-                  <p>123 Web Dev Street, San Francisco, CA 94107</p>
+                  <p>21 KM, Ferozpur Road, Dullu Khurd, Lahore, Pakistan</p>
                 </ContactDetails>
               </ContactItem>
               
@@ -375,7 +375,7 @@ const Contact = () => {
                 </ContactIcon>
                 <ContactDetails>
                   <h3>Email</h3>
-                  <p>example@yourwebsite.com</p>
+                  <p>muhammadhaseeb60@gmail.com</p>
                 </ContactDetails>
               </ContactItem>
               
@@ -385,7 +385,7 @@ const Contact = () => {
                 </ContactIcon>
                 <ContactDetails>
                   <h3>Phone</h3>
-                  <p>+1 (123) 456-7890</p>
+                  <p>+923288091852</p>
                 </ContactDetails>
               </ContactItem>
             </div>
@@ -393,13 +393,13 @@ const Contact = () => {
             <div>
               <h3>Follow Me</h3>
               <SocialLinks>
-                <SocialLink href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <SocialLink href="https://github.com/Haseebdev60" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faGithub} />
                 </SocialLink>
-                <SocialLink href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                <SocialLink href="https://linkedin.com/in/muhammad-haseeb" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faLinkedin} />
                 </SocialLink>
-                <SocialLink href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <SocialLink href="https://twitter.com/haseebdev60" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faTwitter} />
                 </SocialLink>
               </SocialLinks>
@@ -493,7 +493,7 @@ const Contact = () => {
         <MapContainer>
           <MapTitle>My Location</MapTitle>
           <MapIframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.22725710623!2d-122.43297063887928!3d37.77493068362628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1682005824465!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108872.03996036884!2d74.2441257777439!3d31.48032195705777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1695034825889!5m2!1sen!2s"
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

@@ -3,10 +3,13 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Particles3D from '../components/Particles3D';
 
 const AboutSection = styled.section`
   background-color: ${props => props.theme.cardBg};
   padding: 5rem 0;
+  position: relative;
+  overflow: hidden;
 `;
 
 const AboutContainer = styled.div`
@@ -159,6 +162,7 @@ const AboutButton = styled(Link)`
 const AboutPreview = () => {
   return (
     <AboutSection id="about-preview">
+      <Particles3D />
       <AboutContainer>
         <SectionTitle>About Me</SectionTitle>
         
@@ -182,7 +186,7 @@ const AboutPreview = () => {
             viewport={{ once: true }}
           >
             <AboutIntro>
-              I'm <span>Your Name</span>, a Web Developer
+              I'm <span>Muhammad Haseeb</span>, a Web Developer
             </AboutIntro>
             
             <AboutDescription>

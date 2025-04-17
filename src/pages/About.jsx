@@ -336,32 +336,32 @@ const About = () => {
             
             <BioText>
               <p>
-                I'm Your Name, a web developer based in San Francisco, CA specializing in building exceptional digital experiences. I have been working in web development for over 5 years.
+                I'm Muhammad Haseeb, a web developer based in Pakistan specializing in building exceptional digital experiences. I have been working in web development for over 3 years.
               </p>
               <p>
-                My passion for web development started back in 2015 when I decided to try creating custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+                My passion for web development started back in 2020 when I decided to try creating custom websites — turns out hacking together custom UI components taught me a lot about HTML & CSS!
               </p>
               <p>
-                Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, and a tech company. My main focus these days is building accessible, inclusive products and digital experiences.
+                Fast-forward to today, and I've had the privilege of working at various projects and tech companies. My main focus these days is building accessible, inclusive products and digital experiences.
               </p>
             </BioText>
             
             <PersonalInfoList>
               <PersonalInfoItem>
                 <strong>Name:</strong>
-                <span>Your Name</span>
+                <span>Muhammad Haseeb</span>
               </PersonalInfoItem>
               <PersonalInfoItem>
                 <strong>Email:</strong>
-                <span>example@yourwebsite.com</span>
+                <span>muhammadhaseeb60@gmail.com</span>
               </PersonalInfoItem>
               <PersonalInfoItem>
-                <strong>Age:</strong>
-                <span>28</span>
+                <strong>Phone:</strong>
+                <span>+923288091852</span>
               </PersonalInfoItem>
               <PersonalInfoItem>
                 <strong>From:</strong>
-                <span>San Francisco, CA</span>
+                <span>21 KM, Ferozpur Road, Dullu Khurd, Lahore, Pakistan</span>
               </PersonalInfoItem>
             </PersonalInfoList>
           </BioContent>

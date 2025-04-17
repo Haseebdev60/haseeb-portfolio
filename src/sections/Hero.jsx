@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import AnimatedSphere from '../components/AnimatedSphere';
 
 const HeroSection = styled.section`
   min-height: 100vh;
@@ -200,7 +201,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            Hi, I'm <span>Your Name</span>
+            Hi, I'm <span>Muhammad Haseeb</span>
           </HeroTitle>
           
           <HeroDescription
@@ -226,10 +227,10 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            <SocialLink href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <SocialLink href="https://github.com/Haseebdev60" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </SocialLink>
-            <SocialLink href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <SocialLink href="https://linkedin.com/in/muhammad-haseeb" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
             </SocialLink>
           </SocialLinks>
@@ -261,7 +262,12 @@ const Hero = () => {
               duration: 2.5,
             }}
           />
-          <ProfileImage src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Your Name" />
+          <ProfileImage src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Muhammad Haseeb" />
+          
+          {/* 3D Animation */}
+          <div style={{ position: 'absolute', top: '100%', left: 0, right: 0, marginTop: '2rem' }}>
+            <AnimatedSphere />
+          </div>
         </HeroImage>
       </HeroContainer>
     </HeroSection>

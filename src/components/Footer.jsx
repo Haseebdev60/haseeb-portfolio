@@ -82,13 +82,13 @@ const Footer = () => {
         </FooterLogo>
         
         <SocialLinks>
-          <SocialLink href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://github.com/Haseebdev60" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </SocialLink>
-          <SocialLink href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://linkedin.com/in/muhammad-haseeb" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
           </SocialLink>
-          <SocialLink href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://twitter.com/haseebdev60" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} />
           </SocialLink>
         </SocialLinks>
@@ -101,7 +101,7 @@ const Footer = () => {
         </FooterNav>
         
         <Copyright>
-          &copy; {currentYear} Your Name. All rights reserved.
+          &copy; {currentYear} Muhammad Haseeb. All rights reserved.
         </Copyright>
       </FooterContent>
     </FooterContainer>
